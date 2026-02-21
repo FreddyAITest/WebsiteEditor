@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stiller & Partner | Visionäre Architektur</title>
+    <title>Stiller & Partner | Architektur mit Substanz</title>
 
     <!-- SEO & Metadata -->
     <meta name="description"
-        content="Stiller & Partner löst die fundamentalsten Limitierungen der Architektur. Entwerfen Sie schwerelose Strukturen.">
-    <meta name="theme-color" content="#0a0a0a">
+        content="Stiller & Partner – Ihr Architekturbüro für nachhaltiges Bauen im Bestand und anspruchsvollen Gewerbebau. Keine Kompromisse. Nur gebaute Realität.">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,239 +21,210 @@
     <script src="script.js" defer></script>
 </head>
 
-<body class="theme-dark">
+<body class="theme-light">
 
-    <nav class="navbar">
+    <nav class="navbar solid-nav">
         <div class="logo">Stiller & Partner</div>
-        <a href="#cta" class="nav-cta">Kontakt</a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">Philosophie</a>
+            <a href="#expertise" class="nav-link">Kompetenzen</a>
+            <a href="#projects" class="nav-link">Projekte</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#contact" class="nav-cta btn-small">Kontakt</a>
+        </div>
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" aria-label="Menu">&#9776;</button>
     </nav>
 
     <main>
         <!-- 1. Hero Section -->
-        <section id="hero" class="fullscreen text-center section-dark parallax-container">
-            <div class="parallax-bg" id="hero-bg"></div>
-            <div class="container content-z">
-                <h1 class="hero-title"><span class="reveal">Das Ende der Statik.</span><br><span
-                        class="reveal delay-1">Der Beginn des absoluten Raums.</span></h1>
+        <section id="hero" class="fullscreen flex-center relative">
+            <div class="hero-image parallax-bg" id="hero-bg"></div>
+            <div class="container content-z hero-content text-left">
+                <h1 class="hero-title"><span class="reveal">Architektur mit Substanz.</span><br><span
+                        class="reveal delay-1">Räume mit Wirkung.</span></h1>
                 <p class="subtitle reveal delay-2">
-                    Stiller & Partner löst die fundamentalsten Limitierungen der modernen Architektur.<br>
-                    Wir entwerfen schwerelose Strukturen, unendliche Auskragungen und grenzenlose Raumkontinua.<br>
-                    Die tektonische Evolution beginnt hier.
+                    Stiller & Partner – Ihr Architekturbüro für nachhaltiges Bauen im Bestand und anspruchsvollen
+                    Gewerbebau.
                 </p>
-                <div class="cta-wrapper reveal delay-3">
-                    <a href="#cta" class="btn btn-primary btn-glow">Kontakt aufnehmen</a>
+                <div class="cta-wrapper reveal delay-3 flex-gap">
+                    <a href="#contact" class="btn btn-primary">Projektanfrage starten</a>
+                    <a href="#expertise" class="btn btn-secondary">Unsere Arbeitsweise</a>
                 </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="mouse"></div>
             </div>
         </section>
 
-        <!-- 2. Problem Section -->
-        <section id="problem" class="section-light min-vh-70 grid-bg">
-            <div class="container narrow">
-                <h2 class="fade-up">Das Diktat der Schwerkraft.</h2>
-                <div class="text-content fade-up delay-1">
-                    <p>Seit Jahrtausenden ist architektonischer Entwurf ein Kompromiss mit der Physik. Jede kühne
-                        Vision, jede auskragende Geste wird letztendlich von der Notwendigkeit des Lastabtrags diktiert.
+        <!-- 2. Philosophie / Einleitung -->
+        <section id="about" class="section-light min-vh-70 flex-center">
+            <div class="container narrow text-center">
+                <h2 class="fade-up">Keine Kompromisse.<br>Nur gebaute Realität.</h2>
+                <div class="text-content fade-up delay-1 mt-2">
+                    <p class="lead-text">Bei Stiller & Partner glauben wir nicht an theoretische Konstrukte, sondern an
+                        Architektur, die funktioniert. Wir verbinden höchste ästhetische Ansprüche mit wirtschaftlicher
+                        Machbarkeit und baupraktischer Perfektion.</p>
+                    <p>Jedes Projekt ist ein Unikat, maßgeschneidert auf den Ort und die Bedürfnisse unserer Bauherren.
                     </p>
-                    <p>Säulen zerschneiden den Fluss des Raumes. Massive Fundamente binden Strukturen starr an den
-                        Boden. Die Form folgt der Masse. Bis jetzt.</p>
-                </div>
-                <!-- Abstract CAD Lines Element -->
-                <div class="cad-lines fade-up delay-2">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
                 </div>
             </div>
         </section>
 
-        <!-- 3. Solution Section -->
-        <section id="solution" class="section-dark min-vh-100 flex-center relative">
-            <div class="solution-bg parallax-subtle"></div>
+        <!-- 3. Die Nische / Kernkompetenzen -->
+        <section id="expertise" class="section-gray pt-large pb-large">
             <div class="container">
-                <div class="solution-content">
-                    <h2 class="fade-up">Tektonik, neu definiert.</h2>
-                    <div class="text-content fade-up delay-1">
-                        <p>Stiller & Partner suchen keine Kompromisse. Wir definieren das materiale Paradigma neu.</p>
-                        <p>Durch bahnbrechendes Engineering und visionäre Statik entbinden wir Massen von ihrem
-                            Eigengewicht. Wir transformieren die rohe Schwere von Beton, Stahl und Stein in scheinbar
-                            schwerelose Gestaltungselemente.</p>
-                        <p>Befreien Sie Ihre Entwürfe von der Notwendigkeit vertikaler Stützen und schaffen Sie reine,
-                            ungebrochene Formensprache.</p>
+                <div class="expertise-grid">
+                    <!-- Spalte 1 -->
+                    <div class="expertise-card fade-up">
+                        <div class="detail-img">
+                            <img src="assets/solution_structure.png" alt="Detail Planung" loading="lazy">
+                        </div>
+                        <h3>Präzise Planung</h3>
+                        <p>Von der ersten Skizze bis zur Ausführungsplanung. Wir planen vorausschauend, detailgenau und
+                            termintreu.</p>
+                    </div>
+                    <!-- Spalte 2 -->
+                    <div class="expertise-card fade-up delay-1">
+                        <div class="detail-img">
+                            <img src="assets/villa.png" alt="Bauen im Bestand" loading="lazy">
+                        </div>
+                        <h3>Bauen im Bestand</h3>
+                        <p>Wir erkennen das Potenzial bestehender Strukturen und transformieren sie in moderne,
+                            zukunftsfähige Architektur.</p>
+                    </div>
+                    <!-- Spalte 3 -->
+                    <div class="expertise-card fade-up delay-2">
+                        <div class="detail-img">
+                            <img src="assets/pavilion.png" alt="Wirtschaftliche Umsetzung" loading="lazy">
+                        </div>
+                        <h3>Wirtschaftliche Umsetzung</h3>
+                        <p>Ästhetik und Budget schließen sich nicht aus. Wir steuern Projekte effizient und behalten die
+                            Kosten jederzeit im Blick.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 4. Features Section -->
-        <section id="features" class="section-dark pt-0 pb-large">
+        <!-- 4. Ausgewählte Projekte -->
+        <section id="projects" class="section-light overflow-hidden">
             <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card fade-up">
-                        <div class="icon-wrap">
-                            <span class="icon" aria-hidden="true">&#x2192;</span>
+                <div class="section-header flex-between align-end mb-4 fade-up">
+                    <h2 class="m-0">Was wir bauen.</h2>
+                    <a href="#contact" class="text-link">Alle Projekte ansehen &#x2192;</a>
+                </div>
+            </div>
+
+            <div class="projects-grid container fade-up delay-1">
+
+                <!-- Projekt A -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/skyscraper.png" alt="Bürokomplex Neue Mitte" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Bürokomplex Neue Mitte</h3>
+                                <p>Klare Linien, maximale Flächeneffizienz. Ein Meilenstein im modernen Gewerbebau.</p>
+                            </div>
                         </div>
-                        <h3>Grenzenlose Auskragung</h3>
-                        <p>Realisieren Sie horizontale Panoramen von beispielloser Tiefe. Geometrien, die bisher als
-                            statisch unmöglich galten, werden zur neuen Norm.</p>
                     </div>
-                    <div class="feature-card fade-up delay-1">
-                        <div class="icon-wrap">
-                            <span class="icon" aria-hidden="true">&#x2B1A;</span>
+                </div>
+
+                <!-- Projekt B -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/hero_block.png" alt="Revitalisierung Fabrik" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Revitalisierung Fabrik</h3>
+                                <p>Historischer Kern, moderne Nutzung. Nachhaltiges Bauen im Bestand auf höchstem
+                                    Niveau.</p>
+                            </div>
                         </div>
-                        <h3>Stützenfreie Raumkontinua</h3>
-                        <p>Beseitigen Sie strukturelle Unterbrechungen. Schaffen Sie fließende, unendliche Grundrisse,
-                            in denen Innen und Außen ohne Barrieren verschmelzen.</p>
                     </div>
-                    <div class="feature-card fade-up delay-2">
-                        <div class="icon-wrap">
-                            <span class="icon" aria-hidden="true">&#x21C5;</span>
+                </div>
+
+                <!-- Projekt C -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/villa.png" alt="Wohnquartier Süd" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Wohnquartier Süd</h3>
+                                <p>Konsequent minimalistisch. Raumfluss und Lichtführung perfektioniert.</p>
+                            </div>
                         </div>
-                        <h3>Schwebende Fundamentierung</h3>
-                        <p>Reduzieren Sie den topografischen Fußabdruck auf ein absolutes Minimum. Bauen Sie über
-                            extremem Terrain, Wasser oder bestehenden Strukturen, ohne den Untergrund zu belasten.</p>
                     </div>
-                    <div class="feature-card fade-up delay-3">
-                        <div class="icon-wrap">
-                            <span class="icon" aria-hidden="true">&#x229F;</span>
-                        </div>
-                        <h3>Maximale Materialfreiheit</h3>
-                        <p>Nutzen Sie die Ästhetik schwerer Materialien – Sichtbeton, Naturstein, massiven Stahl – ohne
-                            deren gewichtsbedingte Restriktionen in der Bauhöhe oder Ausdehnung.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 5. Über uns (Die Partner) -->
+        <section id="team" class="section-light border-top">
+            <div class="container flex-row align-center gap-4">
+                <div class="team-content flex-1 fade-up">
+                    <h2>Fundierte Erfahrung.<br>Klarer Fokus.</h2>
+                    <div class="text-content mt-2">
+                        <p>Hinter Stiller & Partner stehen Architekten, die ihr Handwerk verstehen. Wir sind der direkte
+                            Ansprechpartner für unsere Bauherren – ohne Umwege, mit voller Transparenz und einem tiefen
+                            Verständnis für komplexe Bauvorhaben.</p>
+                    </div>
+                </div>
+                <div class="team-image flex-1 fade-up delay-1 relative">
+                    <!-- Placeholder for B&W Portrait -->
+                    <div class="portrait-placeholder">
+                        <div class="overlay-bw"></div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 5. Visionary Use Cases -->
-        <section id="use-cases" class="section-dark overflow-hidden">
+        <!-- 6. Footer & Call-to-Action (Kontakt) -->
+        <section id="contact" class="section-dark min-vh-70">
             <div class="container">
-                <h2 class="section-title fade-up">Visionäre Use Cases</h2>
-            </div>
+                <div class="contact-grid">
 
-            <div class="carousel-wrapper fade-up delay-1">
-                <div class="carousel-track" id="carouselTrack">
+                    <div class="contact-info fade-up">
+                        <h2>Lassen Sie uns über Ihr Vorhaben sprechen.</h2>
+                        <p class="subtitle mt-1 mb-3">Senden Sie uns die Eckdaten Ihres Projekts oder rufen Sie uns
+                            direkt an. Wir prüfen die Machbarkeit und melden uns zeitnah zurück.</p>
 
-                    <!-- Case 1 -->
-                    <div class="carousel-slide">
-                        <div class="slide-image">
-                            <img src="assets/villa.png" alt="Suspended Villa" loading="lazy">
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-number">I</div>
-                            <h3>Die Suspended Villa</h3>
-                            <p>Eine monolithische Residenz, die scheinbar haltlos über der Klippe eines Fjords schwebt.
-                                Befreit von traditionellen Stützmauern, verschmilzt die Struktur respektvoll mit der
-                                rauen Topografie.</p>
+                        <div class="contact-details mt-4">
+                            <a href="tel:+493012345678" class="contact-phone">+49 (0) 30 1234 5678</a>
+                            <a href="mailto:kontakt@stiller-partner.de"
+                                class="contact-email">kontakt@stiller-partner.de</a>
+
+                            <address class="mt-3">
+                                <strong>Stiller & Partner Architekten</strong><br>
+                                Kantstraße 142<br>
+                                10623 Berlin
+                            </address>
                         </div>
                     </div>
 
-                    <!-- Case 2 -->
-                    <div class="carousel-slide">
-                        <div class="slide-image">
-                            <img src="assets/skyscraper.png" alt="Non-Linear Skyscraper" loading="lazy">
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-number">II</div>
-                            <h3>Der Non-Linear Skyscraper</h3>
-                            <p>Vertikale Verdichtung ohne den Zwang zentraler Versorgungskerne zur Lastabtragung.
-                                Turmsegmente, die sich asymmetrisch und scheinbar asynchron in den Himmel staffeln –
-                                eine neue Skyline-Dramaturgie.</p>
-                        </div>
-                    </div>
-
-                    <!-- Case 3 -->
-                    <div class="carousel-slide">
-                        <div class="slide-image">
-                            <img src="assets/pavilion.png" alt="Floating Pavilion" loading="lazy">
-                        </div>
-                        <div class="slide-content">
-                            <div class="slide-number">III</div>
-                            <h3>Der Floating Pavilion</h3>
-                            <p>Ein musealer Raum ohne Wände. Massive Dachstrukturen aus schwarzem Marmor, die gewichtlos
-                                über den Kunstwerken ruhen. Ein Ort, der nur durch Schatten und Licht, nicht durch
-                                sichtbare Konstruktion definiert wird.</p>
-                        </div>
+                    <div class="contact-form-wrapper fade-up delay-1">
+                        <form class="lead-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name / Firma</label>
+                                <input type="text" id="name" required placeholder="Ihr Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-Mail Adresse</label>
+                                <input type="email" id="email" required placeholder="Ihre E-Mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="project">Projektbeschreibung</label>
+                                <textarea id="project" rows="4" required
+                                    placeholder="Eckdaten zu Ihrem Bauvorhaben..."></textarea>
+                            </div>
+                            <div class="form-action mt-2">
+                                <button type="submit" class="btn btn-solid-white w-100">Nachricht senden</button>
+                            </div>
+                            <div class="form-success hidden" id="successMsg">
+                                Vielen Dank für Ihre Nachricht. Wir melden uns in Kürze.
+                            </div>
+                        </form>
                     </div>
 
                 </div>
-
-                <div class="carousel-controls">
-                    <button class="carousel-btn prev" id="btnPrev" aria-label="Previous slide">&#x2190;</button>
-                    <button class="carousel-btn next" id="btnNext" aria-label="Next slide">&#x2192;</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- 6. Technology & Trust -->
-        <section id="trust" class="section-tech">
-            <div class="container container-flex">
-                <div class="trust-content fade-up">
-                    <h2>Präzision & Innovation.<br>Ingenieurskunst jenseits der Formel.</h2>
-                    <p>Ein Paradigmenwechsel erfordert kompromisslose Verifizierung. Unsere Entwürfe basieren auf
-                        modernster Ingenieursarchitektur, die in Zusammenarbeit mit führenden Instituten für
-                        theoretische und angewandte Physik entwickelt wurde.</p>
-                    <ul class="check-list">
-                        <li>Fail-Safe-Lokalabschirmung</li>
-                        <li>Autarke EM-Redundanz</li>
-                        <li>Global zertifiziert nach ISO-A/G (Entwurf)</li>
-                    </ul>
-                    <p class="small-text">Wir garantieren strukturelle Integrität, die zu 100% unabhängig von der
-                        statischen Ruhemasse ist.</p>
-                </div>
-                <div class="trust-visual fade-up delay-1">
-                    <div class="data-vis">
-                        <div class="circle c1"></div>
-                        <div class="circle c2"></div>
-                        <div class="line-graph"></div>
-                        <div class="auth-badge">
-                            <span>ISO CERTIFIED</span>
-                            <strong>AG-X Q-FIELD</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 7. CTA / Lead Gen -->
-        <section id="cta" class="section-dark min-vh-70 flex-center">
-            <div class="container narrow cta-container fade-up">
-                <div class="text-center">
-                    <h2>Realisieren Sie Ihre Vision.</h2>
-                    <p class="subtitle">Wir nehmen aktuell ausgewählte, visionäre Leuchtturmprojekte an. Kontaktieren
-                        Sie unser Büro und lassen Sie uns gemeinsam das Fundament für Ihr nächstes wegweisendes
-                        Bauvorhaben legen.</p>
-                </div>
-
-                <form class="lead-form" id="pioneerForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" required placeholder="Ihr vollständiger Name">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="company">Architekturbüro / Institution</label>
-                            <input type="text" id="company" required placeholder="Name des Büros">
-                        </div>
-                        <div class="form-group">
-                            <label for="position">Position</label>
-                            <input type="text" id="position" required placeholder="Ihre Rolle">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="idea">Ihr Bauvorhaben</label>
-                        <textarea id="idea" rows="4" required
-                            placeholder="Beschreiben Sie kurz Ihr Projekt oder Ihre Vision..."></textarea>
-                    </div>
-                    <div class="form-action text-center">
-                        <button type="submit" class="btn btn-solid-white">Nachricht senden</button>
-                    </div>
-                    <div class="form-success hidden" id="successMsg">
-                        Ihre Anfrage wurde übermittelt. Wir werden uns verifizieren und uns in Kürze bei Ihnen melden.
-                    </div>
-                </form>
             </div>
         </section>
     </main>
