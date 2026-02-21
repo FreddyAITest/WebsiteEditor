@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const btn = form.querySelector('button[type="submit"]');
-            btn.innerHTML = 'Verifiziere...';
+            btn.innerHTML = 'Sende...';
             btn.disabled = true;
 
             // Simulate API Call
